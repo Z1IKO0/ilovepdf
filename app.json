@@ -13,11 +13,11 @@
 	"stack": "heroku-20",
 	"env": {
 		"API_ID": {
-			"description": "API_ID from my.telegram.org",
+			"description": "15489557",
 			"required": true
 		},
 		"API_HASH": {
-			"description": "15489557",
+			"description": "664cd79f58fbf1a07dd079d50df29845",
 			"required": true
 		},
 		"API_TOKEN": {
