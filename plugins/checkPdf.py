@@ -24,7 +24,7 @@ encryptedMsg = """`FILE IS ENCRYPTED` 🔐
 File Name: `{}`
 File Size: `{}`
 
-`Number of Pages: {}`✌️"""
+`Səhifə sayı {}`📄"""
 
 
 codecMsg = """__I don't do anything with this file__ 😏
