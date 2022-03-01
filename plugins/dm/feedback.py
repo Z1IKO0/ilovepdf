@@ -36,7 +36,7 @@ button=InlineKeyboardMarkup(
             [
                 InlineKeyboardButton(
                     "😉 Create your Own 😉",
-                    url="https://github.com/nabilanavab/ilovepdf"
+                    url=""
                 )
             ]
        ]
