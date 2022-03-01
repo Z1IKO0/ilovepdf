@@ -83,19 +83,19 @@ bigFileUnSupport = """Due to Overload, Owner limits {}mb for pdf files 🙇
 `please Send me a file less than {}mb Size` 🙃"""
 
 
-imageAdded = """`Added {} page/'s to your pdf..`🤓
+imageAdded = """` {} şəkil PDF-ə yükləndi..`✅
 
-/generate to generate PDF 🤞"""
+/generate - PDF əldə etmək üçün """
 
 
 errorEditMsg = """Something went wrong..😐
 
 ERROR: `{}`
 
-For bot updates join @ilovepdf_bot"""
+For bot updates join @officialzbot"""
 
 
-feedbackMsg = "[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"
+feedbackMsg = "[Botla bağlı fikirlərinizi bildirin 📋](https://t.me/zzprojects)"
 
 
 forceSubMsg = """Wait [{}](tg://user?id={})..!!
