@@ -48,9 +48,7 @@ Kanalımız: @PDF_Az1
 
 
 exploreBotEdit = """
-PROGRESS..
-
-Bot yenililləri üçün @officialzbot takip edin..
+Bot yenililikləri üçün - @officialzbot .
 """
 
 
