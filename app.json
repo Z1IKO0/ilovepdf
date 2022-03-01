@@ -29,11 +29,11 @@
 			"required": false
 		},
 		"CONVERT_API": {
-			"description": "ConvertAPI secret token",
+			"description": "crCtgcARCt9B4XRu",
 			"required": false
 		},
 		"MAX_FILE_SIZE": {
-			"description": "for preventing overload (in mb)",
+			"description": "50",
 			"required": false
 		},
 		"OWNER_ID": {
