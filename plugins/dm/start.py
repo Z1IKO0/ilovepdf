@@ -20,7 +20,7 @@ from pyrogram.types import InlineKeyboardMarkup
 #------------------->
 
 welcomeMsg = """Salam [{}](tg://user?id={})..!!
-Mən PDF Botuyam, bu və bir cox fuksiyam var!
+Mən PDF Botuyam, bu və bir cox funksiyam var!
 
 ◍ `Şəkil -> PDF`
 ◍ `PDF -> şəkil`
