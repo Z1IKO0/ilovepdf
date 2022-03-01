@@ -178,13 +178,9 @@ async def _strtDevEdt(bot, callbackQuery):
             aboutDev,
             reply_markup = InlineKeyboardMarkup(
                 [
-                    [
+                    [                                           
                         InlineKeyboardButton(
-                            "💎 Source Codes 💎",
-                            url = "https://github.com/nabilanavab/ilovepdf"
-                        ),
-                        InlineKeyboardButton(
-                            "Cıxmaq",
+                            "Geriyə",
                             callback_data = "back"
                         )
                     ],
