@@ -19,18 +19,15 @@ from pyrogram.types import InlineKeyboardMarkup
 #--------> LOCAL VARIABLES
 #------------------->
 
-welcomeMsg = """Hey [{}](tg://user?id={})..!!
-This bot will helps you to do many things with pdf's 🥳
+welcomeMsg = """Salam [{}](tg://user?id={})..!!
+Mən PDF Botuyam, bu və bir cox fuksiyam var!
 
-Some of the main features are:
-◍ `Convert images to PDF`
-◍ `Convert PDF to images`
-◍ `Convert files to pdf`
+◍ `Şəkil -> PDF`
+◍ `PDF -> şəkil`
+◍ `File -> PDF`
 
-Update Channel: @ilovepdf_bot 💎
-
-[Source Code 🏆](https://github.com/nabilanavab/ilovepdf)
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+Kanalımız: @PDF_Az1
+"""
 
 
 UCantUse = "For Some Reason You Can't Use This Bot 🛑"
@@ -45,13 +42,9 @@ This Means You Need To Join The Below Mentioned Channel for Using Me!
 hit on "retry ♻️" after joining.. 😅"""
 
 
-aboutDev = """Owned By: @nabilanavab
-Update Channel: @ilovepdf_bot
-
-Now its easy to create your Own nabilanavab/ilovepdf bot
-
-[Source Code 🏆](https://github.com/nabilanavab/ilovepdf)
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+aboutDev = """Owned By: @zikointime
+Kanalımız: @PDF_Az1
+"""
 
 
 exploreBotEdit = """
