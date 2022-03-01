@@ -22,7 +22,7 @@ async def progress(current, t, total, message, start):
     reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚫Cancel", callback_data = "closeme")
+                InlineKeyboardButton("🚫Imtina", callback_data = "closeme")
             ]
         ]
     )
@@ -46,7 +46,7 @@ async def progress(current, t, total, message, start):
         )
         
         await message.edit_text(
-            text="DOWNLOADING..🌡️\n{}".format(
+            text="YÜKLƏNIR..🌡️\n{}".format(
                 tmp
             ),
             reply_markup=reply_markup
