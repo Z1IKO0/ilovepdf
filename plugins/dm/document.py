@@ -92,7 +92,7 @@ errorEditMsg = """Something went wrong..😐
 
 ERROR: `{}`
 
-For bot updates join @officialzbot"""
+Yeniliklər üçun @officialzbot"""
 
 
 feedbackMsg = "[Botla bağlı fikirlərinizi bildirin 📋](https://t.me/zzprojects)"
@@ -112,7 +112,7 @@ button=InlineKeyboardMarkup(
             [
                 InlineKeyboardButton(
                     "😉 Create your Own 😉",
-                    url="https://github.com/nabilanavab/ilovepdf"
+                    url="https://github.com/nabillovepdf"
                 )
             ]
        ]
