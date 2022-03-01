@@ -48,9 +48,9 @@ Kanalımız: @PDF_Az1
 
 
 exploreBotEdit = """
-[WORKING IN PROGRESS
+PROGRESS..
 
-Join @ilovepdf_bot bot Updates 💎](https://t.me/ilovepdf_bot)
+Bot yenililləri üçün @officialzbot takip edin..
 """
 
 
@@ -134,11 +134,11 @@ async def start(bot, message):
                 [
                     [
                         InlineKeyboardButton(
-                            "🌟 Source Code 🌟",
+                            "Dəstək 🇦🇿",
                             callback_data = "strtDevEdt"
                         ),
                         InlineKeyboardButton(
-                            "Explore Bot 🎊",
+                            "Təklif və Fikirlər",
                             callback_data = "exploreBot"
                         )
                     ],
@@ -184,13 +184,13 @@ async def _strtDevEdt(bot, callbackQuery):
                             url = "https://github.com/nabilanavab/ilovepdf"
                         ),
                         InlineKeyboardButton(
-                            "Home 🏡",
+                            "Cıxmaq",
                             callback_data = "back"
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            "Close 🚶",
+                            "Cıxmaq",
                             callback_data = "close"
                         )
                     ]
@@ -211,13 +211,13 @@ async def _exploreBot(bot, callbackQuery):
                 [
                     [
                         InlineKeyboardButton(
-                            "Home 🏡",
+                            "Geriyə",
                             callback_data = "back"
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            "Close 🚶",
+                            "Cıxmaq",
                             callback_data = "close"
                         )
                     ]
@@ -242,17 +242,17 @@ async def _back(bot, callbackQuery):
                 [
                     [
                         InlineKeyboardButton(
-                            "🌟 Source Code 🌟",
+                            "Dəstək 🇦🇿",
                             callback_data = "strtDevEdt"
                         ),
                         InlineKeyboardButton(
-                            "Explore More 🎊",
+                            "Təklif və Fikirlər",
                             callback_data = "exploreBot"
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            "Close 🚶",
+                            "Cıxmaq",
                             callback_data = "close"
                         )
                     ]
@@ -283,17 +283,17 @@ async def _refresh(bot, callbackQuery):
                 [
                     [
                         InlineKeyboardButton(
-                            "🌟 Source Code 🌟",
+                            "Dəstək 🇦🇿",
                             callback_data = "strtDevEdt"
                         ),
                         InlineKeyboardButton(
-                            "Explore Bot 🎊",
+                            "Təklif və Fikirlər",
                             callback_data = "exploreBot"
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            "Close 🚶",
+                            "Cıxmaq",
                             callback_data = "close"
                         )
                     ]
