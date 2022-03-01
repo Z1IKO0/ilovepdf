@@ -20,17 +20,16 @@ from pyrogram.types import InlineKeyboardMarkup
 #------------------->
 
 welcomeMsg = """Salam [{}](tg://user?id={})..!!
-Mən PDF Botuyam, PDF-lə bağlı bir cox funksiyam var, sadəcə şəkil göndərin və mən onu dərhal PDF edim!
+Mən PDF Botuyam, sadəcə şəkil göndərin və mən onu dərhal PDF edim!
 
 ◍ `Şəkil -> PDF`
-◍ `PDF -> şəkil`
 ◍ `File -> PDF`
 
 Kanalımız: @PDF_Az1
 """
 
 
-UCantUse = "For Some Reason You Can't Use This Bot 🛑"
+UCantUse = "Bəzi səbəblərə görə siz botdam istifadə edə bilmərsiz!🛑"
 
 
 forceSubMsg = """Wait [{}](tg://user?id={})..!!
