@@ -300,29 +300,7 @@ async def _refresh(bot, callbackQuery):
                 ]
             )
         )
-    except Exception:
-        try:
-            # IF NOT USER ALERT MESSAGE (AFTER CALLBACK)
-            await bot.answer_callback_query(
-                callbackQuery.id,
-                text = foolRefresh,
-                show_alert = True,
-                cache_time = 0
-            )
-        except Exception as e:
-            print(e)
-
-
-@ILovePDF.on_callback_query(close)
-async def _close(bot, callbackQuery):
-    try:
-        await bot.delete_messages(
-            chat_id = callbackQuery.message.chat.id,
-            message_ids = callbackQuery.message.message_id
-        )
-        return
-    except Exception as e:
-        print(e)
+    
 
 
 #                                                                                  Telegram: @nabilanavab
