@@ -78,7 +78,7 @@ async def generate(bot, message):
                 message.chat.id, "typing"
             )
             imagesNotFounded = await message.reply_text(
-                "`No image founded.!!`😒"
+                "`Şəkil tapılmadı`😒"
             )
             sleep(5)
             await message.delete()
@@ -86,7 +86,7 @@ async def generate(bot, message):
             return
         
         gnrtMsgId = await message.reply_text(
-            f"`PDF yüklənir..`💚"
+            f"`Şəkillər yüklənir..`💚"
         )
         
         if newName == " name":
