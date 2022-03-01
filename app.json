@@ -17,11 +17,11 @@
 			"required": true
 		},
 		"API_HASH": {
-			"description": "API_ID from my.telegram.org",
+			"description": "15489557",
 			"required": true
 		},
 		"API_TOKEN": {
-			"description": "API_TOKEN from @botfather",
+			"description": "5267013361:AAFvqC_FOTCan6DuPOm0xawI70VGZmHwZPQ",
 			"required": true
 		},
 		"UPDATE_CHANNEL": {
