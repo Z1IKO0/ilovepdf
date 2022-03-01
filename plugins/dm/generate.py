@@ -33,7 +33,7 @@ ADMINS=Config.ADMINS
 UCantUse = "For Some Reason You Can't Use This Bot 🛑"
 
 
-feedbackMsg = "[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"
+feedbackMsg = "[Botla bağlı fikirlərinizi bildirin 📋](https://t.me/zzprojects)"
 
 
 button=InlineKeyboardMarkup(
@@ -86,7 +86,7 @@ async def generate(bot, message):
             return
         
         gnrtMsgId = await message.reply_text(
-            f"`Generating pdf..`💚"
+            f"`PDF yüklənir..`💚"
         )
         
         if newName == " name":
@@ -100,7 +100,7 @@ async def generate(bot, message):
         
         images[0].save(fileName, save_all = True, append_images = images[1:])
         await gnrtMsgId.edit(
-            "`Uploading pdf.. `🏋️",
+            "`PDF yüklənir..` `🏋️",
         )
         await bot.send_chat_action(
             message.chat.id, "upload_document"
@@ -112,7 +112,7 @@ async def generate(bot, message):
             caption=f"file Name: `{fileName}`\n\n`Total pg's: {pgnmbr}`"
         )
         await gnrtMsgId.edit(
-            "`Successfully Uploaded.. `🤫",
+            "`PDF yükləndi.. `✅",
         )
         os.remove(fileName)
         shutil.rmtree(f"{message.chat.id}")
