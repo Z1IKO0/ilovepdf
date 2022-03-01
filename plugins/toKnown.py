@@ -20,7 +20,7 @@ pdfInfoMsg = """`What shall i wanted to do with this file.?`
 File Name : `{}`
 File Size : `{}`
 
-`Number of Pages: {}`✌️"""
+Səhifə sayı {}`📄"""
 
 #--------------->
 #--------> EDIT CHECKPDF MESSAGE (IF PDF & NOT ENCRYPTED)
@@ -46,11 +46,11 @@ async def toKnown(callbackQuery, number_of_pages):
                     ],
                     [
                         InlineKeyboardButton(
-                            "To Images 🖼️",
+                            "Şəkil 🖼️",
                             callback_data=f"KtoImage|{number_of_pages}"
                         ),
                         InlineKeyboardButton(
-                            "To Text ✏️",
+                            "Tekst ✏️",
                             callback_data=f"KtoText|{number_of_pages}"
                         )
                     ],
@@ -90,7 +90,7 @@ async def toKnown(callbackQuery, number_of_pages):
                             callback_data=f"Kstamp|{number_of_pages}"
                         ),
                         InlineKeyboardButton(
-                            "Rename ✏️",
+                            "Adını dəyiş ✏️",
                             callback_data="rename"
                         )
                     ]
