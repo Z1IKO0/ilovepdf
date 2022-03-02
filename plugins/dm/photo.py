@@ -32,9 +32,9 @@ ADMINS=Config.ADMINS
 UCantUse = "For Some Reason You Can't Use This Bot 🛑"
 
 
-imageAdded = """`Added {} page/'s to your pdf..`🤓
+imageAdded = """ {} nömrəli səhifə PDF yükləndi`🤓
 
-/generate to generate PDF 🤞"""
+PDF elde etmək üçün -> /generate"""
 
 
 forceSubMsg = """Wait [{}](tg://user?id={})..!!
