@@ -28,7 +28,7 @@ ADMINS=Config.ADMINS
 UCantUse = "For Some Reason You Can't Use This Bot 🛑"
 
 
-feedbackMsg = "[Botla bağlı fikirlərinizi bildirin 📋](https://t.me/zzprojects)"
+feedbackMsg = "[Botla bağlı fikirlərinizi bildirin 📋](https://t.me/officialzbot/11)"
 
 
 button=InlineKeyboardMarkup(
