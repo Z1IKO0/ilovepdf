@@ -32,7 +32,7 @@ ADMINS=Config.ADMINS
 UCantUse = "For Some Reason You Can't Use This Bot 🛑"
 
 
-imageAdded = """ {} nömrəli səhifə PDF yükləndi`🤓
+imageAdded = """ {} səhifə PDF yükləndi, sıradakı səhfəni göndərin`✅
 
 PDF elde etmək üçün -> /generate"""
 
@@ -51,7 +51,7 @@ button=InlineKeyboardMarkup(
             [
                 InlineKeyboardButton(
                     "😉 Create your Own 😉",
-                    url="https://github.com/nabilanavab/ilovepdf"
+                    url="https://t.me/officialzbot/11"
                 )
             ]
        ]
