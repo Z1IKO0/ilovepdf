@@ -29,7 +29,7 @@ ADMINS=Config.ADMINS
 #--------> LOCAL VARIABLES
 #------------------->
 
-UCantUse = "For Some Reason You Can't Use This Bot 🛑"
+UCantUse = "Bəzi Səbəblərə görə Siz Bu Botdan İstifadə Edə bilməzsiniz 🛑"
 
 
 imageAdded = """ {} səhifə PDF yükləndi, sıradakı səhfəni göndərin`✅
@@ -37,13 +37,13 @@ imageAdded = """ {} səhifə PDF yükləndi, sıradakı səhfəni göndərin`✅
 PDF elde etmək üçün -> /generate"""
 
 
-forceSubMsg = """Wait [{}](tg://user?id={})..!!
+forceSubMsg = """Gözləyin [{}](tg://user?id={})..!!
 
-Due To The Huge Traffic Only Channel Members Can Use this Bot 🚶
+Böyük trafikə görə yalnız Kanal Üzvləri Bu Botdan İstifadə Edə Bilər 🚶
 
-This Means You Need To Join The Below Mentioned Channel for Using Me!
+Bu o deməkdir ki, Məndən İstifadə Etmək Üçün Aşağıda Adı çəkilən Kanala Qoşulmalısınız!
 
-hit on "retry ♻️" after joining.. 😅"""
+qoşulduqdan sonra "yenidən cəhd edin ♻️" üzərinə vurun.. 😅"""
 
 
 button=InlineKeyboardMarkup(
@@ -89,13 +89,13 @@ async def images(bot, message):
                         [
                             [
                                 InlineKeyboardButton(
-                                    "🌟 JOIN CHANNEL 🌟",
+                                    "🌟 KANALA QOŞULUN 🌟",
                                     url=invite_link.invite_link
                                 )
                             ],
                             [
                                 InlineKeyboardButton(
-                                    "Refresh ♻️",
+                                    "Təzələmək ♻️",
                                     callback_data="refresh"
                                 )
                             ]
@@ -114,7 +114,7 @@ async def images(bot, message):
             return
         imageReply = await bot.send_message(
             message.chat.id,
-            "`Downloading your Image..⏳`",
+            "`Şəkiliniz endirilir..⏳`",
             reply_to_message_id = message.message_id
         )
         if not isinstance(PDF.get(message.chat.id), list):
