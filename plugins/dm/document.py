@@ -69,18 +69,18 @@ suprtedPdfFile2 = [
 #--------> LOCAL VARIABLES
 #------------------->
 
-UCantUse = "For Some Reason You Can't Use This Bot 🛑"
+UCantUse = "Bəzi Səbəblərə Görə Bu Botdan İstifadə Edə Bilmirsiniz 🛑"
 
 
-pdfReplyMsg = """`What shall i wanted to do with this file.?`
+pdfReplyMsg = """`Mən bu faylla nə etmək istərdim?`
 
 File Name : `{}`
 File Size : `{}`"""
 
 
-bigFileUnSupport = """Due to Overload, Owner limits {}mb for pdf files 🙇
+bigFileUnSupport = """Həddindən artıq yükləməyə görə, Sahib pdf faylları üçün {}mb limiti qoyur 🙇
 
-`please Send me a file less than {}mb Size` 🙃"""
+`zəhmət olmasa mənə {}mb Ölçüsündən kiçik fayl göndərin` 🙃"""
 
 
 imageAdded = """` {} şəkil PDF-ə yükləndi..`✅
@@ -88,31 +88,31 @@ imageAdded = """` {} şəkil PDF-ə yükləndi..`✅
 /generate - PDF əldə etmək üçün """
 
 
-errorEditMsg = """Something went wrong..😐
+errorEditMsg = """Xəta baş verdi..😐
 
 ERROR: `{}`
 
 Yeniliklər üçun @officialzbot"""
 
 
-feedbackMsg = "[Botla bağlı fikirlərinizi bildirin 📋](https://t.me/zzprojects)"
+feedbackMsg = "[Botla bağlı fikirlərinizi bildirin 📋](https://t.me/officialzbot/11)"
 
 
-forceSubMsg = """Wait [{}](tg://user?id={})..!!
+forceSubMsg = """Gözləyin [{}](tg://user?id={})..!!
 
-Due To The Huge Traffic Only Channel Members Can Use this Bot 🚶
+Böyük trafikə görə yalnız Kanal Üzvləri Bu Botdan İstifadə Edə Bilər 🚶
 
-This Means You Need To Join The Below Mentioned Channel for Using Me!
+Bu o deməkdir ki, Məndən İstifadə Etmək Üçün Aşağıda Adı çəkilən Kanala Qoşulmalısınız!
 
-hit on "retry ♻️" after joining.. 😅"""
+qoşulduqdan sonra "yenidən cəhd edin ♻️" üzərinə vurun.. 😅"""
 
 
 button=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "😉 Create your Own 😉",
-                    url="https://github.com/nabillovepdf"
+                    "Kanalımız 😉",
+                    url="https://t.me/PDF_Az1"
                 )
             ]
        ]
@@ -126,57 +126,57 @@ pdfReply=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "⭐ get page No & info ⭐",
+                    "⭐ səhifə Nömrəsi və məlumat əldə edin ⭐",
                     callback_data="pdfInfo"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    "To Images 🖼️",
+                    "Şəkillərə çevir 🖼️",
                     callback_data="toImage"
                 ),
                 InlineKeyboardButton(
-                    "To Text ✏️",
+                    "Mətnə çevir ✏️",
                     callback_data="toText"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    "Encrypt 🔐",
+                    "Şifrələyin 🔐",
                     callback_data="encrypt"
                 ),
                 InlineKeyboardButton(
-                    "Decrypt 🔓",
+                    "Şifrəni açın 🔓",
                     callback_data="decrypt"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    "Compress 🗜️",
+                    "Kompress 🗜️",
                     callback_data="compress"
                 ),
                 InlineKeyboardButton(
-                    "Rotate 🤸",
+                    "Döndürün 🤸",
                     callback_data="rotate"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    "Split ✂️",
+                    "Bölün ✂️",
                     callback_data="split"
                 ),
                 InlineKeyboardButton(
-                    "Merge 🧬",
+                    "Birləşdirin 🧬",
                     callback_data="merge"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    "Stamp ™️",
+                    "Möhürlüyün ™️",
                     callback_data="stamp"
                 ),
                 InlineKeyboardButton(
-                    "Rename ✏️",
+                    "Adını dəyişdirin ✏️",
                     callback_data="rename"
                 )
             ]
@@ -225,13 +225,13 @@ async def documents(bot, message):
                         [
                             [
                                 InlineKeyboardButton(
-                                    "🌟 JOIN CHANNEL 🌟",
+                                    "🌟 KANALA QOŞULUN 🌟",
                                     url=invite_link.invite_link
                                 )
                             ],
                             [
                                 InlineKeyboardButton(
-                                    "Refresh ♻️",
+                                    "Yeniləyin ♻️",
                                     callback_data="refresh"
                                 )
                             ]
@@ -274,7 +274,7 @@ async def documents(bot, message):
         elif fileExt.lower() in suprtedFile:
             try:
                 imageDocReply = await message.reply_text(
-                    "`Downloading your Image..⏳`", quote=True
+                    "`Şəkliniz endirilir..⏳`", quote=True
                 )
                 if not isinstance(PDF.get(message.chat.id), list):
                     PDF[message.chat.id]=[]
@@ -297,7 +297,7 @@ async def documents(bot, message):
         elif fileExt.lower() == ".pdf":
             try:
                 pdfMsgId = await message.reply_text(
-                    "Processing..🚶", quote=True
+                    "Emal olunur..🚶", quote=True
                 )
                 sleep(0.5)
                 await pdfMsgId.edit(
@@ -313,13 +313,13 @@ async def documents(bot, message):
         elif fileExt.lower() in suprtedPdfFile:
             try:
                 pdfMsgId = await message.reply_text(
-                    "`Downloading your file..⏳`", quote=True
+                    "`Faylınız endirilir..⏳`", quote=True
                 )
                 await message.download(
                     f"{message.message_id}/{isPdfOrImg}"
                 )
                 await pdfMsgId.edit(
-                    "`Creating pdf..`💛"
+                    "`Pdf yaradılır. .`💛"
                 )
                 Document=fitz.open(
                     f"{message.message_id}/{isPdfOrImg}"
@@ -333,7 +333,7 @@ async def documents(bot, message):
                 )
                 pdf.close()
                 await pdfMsgId.edit(
-                    "`Started Uploading..`🏋️"
+                    "`Yükləməyə başladı..`🏋️"
                 )
                 await bot.send_chat_action(
                     message.chat.id, "upload_document"
@@ -374,13 +374,13 @@ async def documents(bot, message):
             else:
                 try:
                     pdfMsgId = await message.reply_text(
-                        "`Downloading your file..⏳`", quote=True
+                        "`Faylınız endirilir...⏳`", quote=True
                     )
                     await message.download(
                         f"{message.message_id}/{isPdfOrImg}"
                     )
                     await pdfMsgId.edit(
-                        "`Creating pdf..`💛"
+                        "`Pdf yaradılır. .`💛"
                     )
                     try:
                         await convertapi.convert(
