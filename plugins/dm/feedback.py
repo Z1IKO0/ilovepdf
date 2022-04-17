@@ -34,9 +34,9 @@ feedbackMsg = "[Botla bağlı fikirlərinizi bildirin 📋](https://t.me/officia
 button=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(
-                    "😉 Create your Own 😉",
-                    url=""
+                InlineKeyboardButton
+                    "Kanalımız",
+                    url="https://t.me/PDF_Az1"
                 )
             ]
        ]
