@@ -26,14 +26,14 @@ ADMINS=Config.ADMINS
 #--------> LOCAL VARIABLES
 #------------------->
 
-UCantUse = "🚫For Some Reason You Can't Use This Bot🚫"
+UCantUse = "🚫Bəzi Səbəblərə Görə Bu Botdan İstifadə Edə Bilmirsiniz🚫"
 
 button=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "😉 Create your Own 😉",
-                    url="https://github.com/nabilanavab/ilovepdf"
+                    "Kanalımız",
+                    url="https://t.me/PDF_Az1"
                 )
             ]
        ]
