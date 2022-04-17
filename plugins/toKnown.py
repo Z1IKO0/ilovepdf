@@ -15,15 +15,15 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 #--------> LOCAL VARIABLES
 #------------------->
 
-pdfInfoMsg = """`What shall i wanted to do with this file.?`
+pdfInfoMsg = """`Bu faylla nə etmək istərdin?`
 
-File Name : `{}`
-File Size : `{}`
+Fayl Adı : `{}`
+Fayl Həcmi : `{}`
 
 Səhifə sayı {}`📄"""
 
 #--------------->
-#--------> EDIT CHECKPDF MESSAGE (IF PDF & NOT ENCRYPTED)
+#--------> CHECKPDF MESAJINI DÜZENLE (ƏGƏR PDF ŞİFRELƏMƏMƏSİNSƏ)
 #------------------->
 
 # convert unknown to known page number msgs
@@ -56,37 +56,37 @@ async def toKnown(callbackQuery, number_of_pages):
                     ],
                     [
                         InlineKeyboardButton(
-                            "Encrypt 🔐",
+                            "Şifrələyin 🔐",
                             callback_data=f"Kencrypt|{number_of_pages}"
                         ),
                         InlineKeyboardButton(
-                            "Decrypt 🔓",
+                            "Şifrəni açın 🔓",
                             callback_data=f"notEncrypted"
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            "Compress 🗜️",
+                            "Kompress 🗜️",
                             callback_data=f"Kcompress"
                         ),
                         InlineKeyboardButton(
-                            "Rotate 🤸",
+                            "Döndürün 🤸",
                             callback_data=f"Krotate|{number_of_pages}"
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                           "Split ✂️",
+                           "Bölün ✂️",
                             callback_data=f"Ksplit|{number_of_pages}"
                         ),
                         InlineKeyboardButton(
-                            "Merge 🧬",
+                            "Birləşdirin 🧬",
                             callback_data="merge"
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            "Stamp ™️",
+                            "Möhürlüyün ™️",
                             callback_data=f"Kstamp|{number_of_pages}"
                         ),
                         InlineKeyboardButton(
