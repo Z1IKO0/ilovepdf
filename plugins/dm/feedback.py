@@ -35,7 +35,7 @@ button=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton
-                    "Kanalımız",
+                    " Kanalımız ",
                     url="https://t.me/PDF_Az1"
                 )
             ]
