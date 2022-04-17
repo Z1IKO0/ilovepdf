@@ -32,13 +32,13 @@ Kanalımız: @PDF_Az1
 UCantUse = "Bəzi səbəblərə görə siz botdam istifadə edə bilmərsiz!🛑"
 
 
-forceSubMsg = """Wait [{}](tg://user?id={})..!!
+forceSubMsg = """Gözləyin [{}](tg://user?id={})..!!
 
-Due To The Huge Traffic Only Channel Members Can Use this Bot 🚶
+Böyük trafikə görə yalnız Kanal Üzvləri Bu Botdan İstifadə Edə Bilər 🚶
 
-This Means You Need To Join The Below Mentioned Channel for Using Me!
+Bu o deməkdir ki, Məndən İstifadə Etmək Üçün Aşağıda Adı çəkilən Kanala Qoşulmalısınız!
 
-hit on "retry ♻️" after joining.. 😅"""
+qoşulduqdan sonra "yenidən cəhd edin ♻️" düyməsini basın.. 😅"""
 
 
 aboutDev = """Owned By: @zikointime
@@ -141,7 +141,7 @@ async def start(bot, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "Close 🚶",
+                            "Cıxmaq",
                             callback_data = "close"
                         )
                     ]
