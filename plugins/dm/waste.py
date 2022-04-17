@@ -25,15 +25,15 @@ ADMINS = Config.ADMINS
 #--------> LOCAL VARIABLES
 #------------------->
 
-UCantUse = "For Some Reason You Can't Use This Bot 🛑"
+UCantUse = "Bəzi Səbəblərə görə Siz Bu Botdan İstifadə Edə bilməzsiniz 🛑"
 
 
 button=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "😉 Create your Own 😉",
-                    url="https://github.com/nabilanavab/ilovepdf"
+                    "Kanalımız",
+                    url="https://t.me/PDF_Az1"
                 )
             ]
        ]
@@ -59,7 +59,7 @@ async def spam(bot, message):
             )
             return
         await message.reply_text(
-            f"`unsupported media..😪`", quote=True
+            f"`dəstəklənməyən media..😪`", quote=True
         )
     except Exception:
         pass
